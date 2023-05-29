@@ -36,8 +36,7 @@
 
 \centering \large \textbf  {A PRELIMENERY REPORT ON   }\\
 \vspace{0.9 cm}
-\Large \textbf{“Machine Learning Based Music Recommendation System
-Using Facial Expressions”}\\
+\Large \textbf{"PC Game Development using Unity”}\\
 \vspace{0.5 cm}
 %\normalsize {on}\\
 %\vspace{0.1 cm}
@@ -53,17 +52,19 @@ Using Facial Expressions”}\\
 \large{SUBMITTED BY}\\
 \vspace{0.3 cm}
 
-\large \textbf  {Samiksha Deshmukh (BCOA21)}
+\large \textbf  {Ankur Patil (BCOB10)}
 
-\large \textbf  {Pavan Rengade (BCOA28) }
+\large \textbf  {Lalu Nair (BCOB05) }
 
-\large \textbf{Pooja Kedari (BCOA25)}
+\large \textbf{Viren Patil (BCOB14)}
+
+\large \textbf{Sharan Thakur (BCOB09)}
 %\vspace{0.3 cm}
 
 
 \begin{figure}[h]
 \centering
-\includegraphics[scale=0.6]{Logo.png }
+\includegraphics[scale=0.25]{Logo.png }
 \end{figure}
 
 \centering \Large \textbf  {DEPARTMENT OF COMPUTER ENGINEERING}\\
@@ -86,7 +87,7 @@ Using Facial Expressions”}\\
 %\begin{wrapfigure}{l}{5.5cm}
 \begin{figure}[h]
 \centering
-\includegraphics[width=6cm]{Logo1.jpg}
+\includegraphics[width=6cm]{Logo.png}
 %\end{wrapfigure} 
 \end{figure}
 
@@ -97,24 +98,26 @@ Using Facial Expressions”}\\
 
 \normalsize{This is to certify that the Project Entitled}\\
 \vspace{0.3cm}
-\large\textbf{Machine Learning Based Music Recommendation
-System Using Facial Expressions}\\
+\large\textbf{PC Game Development using Unity}\\
 \vspace{0.3 cm}
 \normalsize{Submitted by}\\
 \vspace{0.3 cm}
 
-\normalsize  {Samiksha Deshmukh (BCOA21)}
+\normalsize  {Ankur Patil (BCOB10)}
 
-\normalsize {Pavan Rengade (BCOA28) }
+\normalsize  {Lalu Nair (BCOB05)}
 
-\normalsize {Pooja Kedari (BCOA25)}
-\vspace{0.2 cm}\\
+\normalsize  {Viren Patil (BCOB14)}
+
+\normalsize  {Sharan Thakur (BCOB09)}
+
+\vspace{0.2 cm}
 \justifying
 \setlength{\parindent}{4em}
 \setlength{\parskip}{1em}
 \renewcommand{\baselinestretch}{1.5}
 \normalsize
-is a bonafide students of Dr. D. Y. Patil Institute of Technology and the work has been carried 
+are bonafide students of Dr. D. Y. Patil Institute of Technology and the work has been carried 
 out by them under the supervision of Mr. Sharad Adsure (Asst. Professor) and Mrs. 
 Deepika Jaiswal (Asst. Professor), it is approved for the partial fulfillment of the 
 requirement of Savitribai Phule Pune University, for the award of the degree of Bachelor of Computer
@@ -162,25 +165,24 @@ Date:
 \setlength{\parskip}{1em}
 \renewcommand{\baselinestretch}{1.5}
 \normalsize
-It gives us immense pleasure in presenting the preliminary project report on ‘Machine 
-Learning Based Music Recommendation System Using Facial Expressions’.
+It gives us great pleasure in presenting the preliminary project report on “PC GAME DEVELOPMENT USING UNITY”
 
-	We would like to take this opportunity to thank our internal guide Mr. Sharad Adsure
-(Asst. Professor) and Co-guide Mrs. Deepika Jaiswal (Asst. Professor) for giving us all the 
-help and guidance we needed. We are grateful to them for their kind support. Their valuable
-suggestions were very helpful.
 
-	We are also grateful to Dr. Vinod Kimbahune (Head of Computer Engineering 
-Department) Dr. D. Y. Patil Institute of Technology for his indispensable support, suggestions.
+We would like to take this opportunity to thank my internal guides Asst. Prof. Sharad Adsure as well as Ms. Deepika Jaiswal for giving me all the help and guidance we needed. We are really grateful to them for their kind support. Their valuable suggestions were very helpful. 
 
-	In the end our special thanks to Mr. Chandrakant Shinde (Librarian) for providing
-various resources such as library with all needed reference papers for Our Project.
+
+We are also grateful to Dr. Lalit Kumar Wadhwa, Principal as well as Dr. Vinod V. Kimbahune, Head of Computer Engineering Department, Dr. D.Y Patil Institute Of Technology, Pimpri for his indispensable support, suggestions.
+
 
 \begin{flushright}
 
- Samiksha Deshmukh (BCOA21)\\
- Pavan Rengade (BCOA28) \\
-Pooja Kedari (BCOA25)
+\normalsize  {Ankur Patil (BCOB10)}
+
+\normalsize  {Lalu Nair (BCOB05)}
+
+\normalsize  {Viren Patil (BCOB14)}
+
+\normalsize  {Sharan Thakur (BCOB09)}
 \end{flushright}
 \clearpage
 %end of Acknoledgement
@@ -194,29 +196,9 @@ Pooja Kedari (BCOA25)
 \setlength{\parskip}{1em}
 \renewcommand{\baselinestretch}{1.5}
 \normalsize
-Music plays a significant role in improving and uplifting the mood as it is one of the important 
-sources of entertainment and inspiration to move forward. Recent studies have shown that people 
-respond and respond to music very positively and that music has a great influence on human brain 
-activity. Nowadays, people often prefer to listen to music according to their mood and interests. This 
-work focuses on a system that suggests songs to users based on their state of mind. In this system, 
-computer vision components are used to determine the user's emotions through facial expressions. 
-Once an emotion is recognized, the system will suggest a song for that emotion, saving the user a 
-lot of time in manually selecting and playing songs. The conventional way of playing music 
-depending on a person's mood requires human interaction. The transition to computer vision 
-technology will enable the automation of such a system. To achieve this goal, an algorithm is used 
-to classify human expressions and play a music track according to the currently detected emotion. It 
-reduces the effort and time required to manually search for a song from the list. The proposed system 
-detects emotions, if the subject has a negative emotion, then he will be presented with a specific 
-playlist that contains the most suitable types of music. On the other hand, if the detected emotion is 
-positive, an appropriate playlist will be provided that will include different types of music that will 
-enhance the positive emotion. The person's expressions are detected by extracting facial features 
-using the Haar-Cascade algorithm and the CNN algorithm. A built-in camera is used to capture a 
-person's facial expressions, which reduces system design costs compared to other methods.
+The 2D (Dodgeball Video Game) is a multiplayer game written in Unity 3D using C\#. The game allows players to play over a network, locally with friends on the same network, or over the internet via Photon Cloud. The game plays as you would expect from a dodgeball game. Players can run around, pick up balls, and throw them at each other. If the player is hit enough times, the player is eliminated. Players can choose to continue the game or stop at the end of the game. This game is made with assets and different packages that users can enjoy! This "dodgeball video game" aims to appeal to a market that is still under-tapped. There are already several examples of dodgeball games on the market, but none are perfect and each has some compromises. Some with great interaction with the field, but leave room for variables such as ball/player skill, etc. Proper implementation will keep our users intrigued  and provide a great and unique gaming experience Our main desire is to analyze the existing small market and build on previous dodgeball game attempts to develop a never-before-seen and unique dodgeball experience. Being able to reproduce the game and take advantage of the technology here today will help produce new life into the game dodgeball. Although it will not be 100 percent similar to the original game we all played as kids, the same basic principle of working together as a team to eliminate the enemy team is still present.
 
-
-
-\raggedright{ \textbf \underline{KEYWORDS : }}Recommender System, Convolution Neural Network (CNN), image processing,
-Machine Learning, Classification etc
+\raggedright{ \textbf \underline{KEYWORDS : }}Unity 2D, Game Development, Mono Behaviour, C\#, Real–World, Object Oriented Programming, WEBGL, iOS
 
 \clearpage
 % end of  ABSTRACt
@@ -748,19 +730,14 @@ Within the hidden layers of a CNN, there are many activation and pooling layers.
 layers. The output of the final pooling or convolutional layer is fed to the fully connected 
 layer and flattened before being applied.
 
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.6]{CNN Algorithm.png}
-\caption{CNN Algorithm}
-\label{CNN Algorithm}
-\end{figure}
+%\begin{figure}[h]
+%\centering
+%\includegraphics[scale=0.6]{CNN Algorithm.png}
+%\caption{CNN Algorithm}
+%\label{CNN Algorithm}
+%\end{figure}
 
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.6]{Accuracy.png}
-\caption{Model Accuracy and loss graph}
-\label{Model Accuracy and loss graph}
-\end{figure}
+
 
 \subsection{ Haar Cascade Feature}
 \hspace{1.7cm}This is an object detection algorithm used to identify faces in real-time images or videos. 
@@ -815,7 +792,7 @@ as admin.
 \vspace{1.5cm}
 \begin{figure}[h]
 \centering
-\includegraphics[scale=1.0]{ Data Flow diagram-2.png}
+\includegraphics[scale=1.0]{ Data Flow diagram-1.png}
 \caption{ Data Flow diagram-2}
 \label{ Data Flow diagram-2}
 \end{figure}
@@ -866,7 +843,7 @@ of the actors in the system can be depicted.
 \vspace{1.5cm}
 \begin{figure}[h]
 \centering
-\includegraphics[scale=0.7]{Use case Diagram.png}
+\includegraphics[scale=0.7]{images15.png}
 \caption{Use case Diagram}
 \label{ Use case Diagram}
 \end{figure}
@@ -885,7 +862,7 @@ are used to model dynamic aspects of the system.
 \vspace{1.5cm}
 \begin{figure}[h]
 \centering
-\includegraphics[scale=0.8]{Activity Diagram.png}
+\includegraphics[scale=0.8]{images14.png}
 \caption{Activity Diagram}
 \label{Activity Diagram}
 \end{figure}
@@ -902,7 +879,7 @@ of messages. It also indicates the lifespans of objects relative to those messag
 \vspace{1.5cm}
 \begin{figure}[h]
 \centering
-\includegraphics[scale=0.9]{Sequence Diagram.png}
+\includegraphics[scale=0.9]{images14.png}
 \caption{Sequence Diagram}
 \label{Sequence Diagram}
 \end{figure}
@@ -943,14 +920,7 @@ types of classes and each posses their own attributes and methods. Main Classes 
 proposed system are NDSRRC, FP Tree, Apriory, Sanitised DB each have different 
 functionalities.
 \vspace{1.5cm}
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.9]{ Entity Relationship Diagrams.png}
-\caption{ Entity Relationship Diagram
-}
-\label{Entity Relationship Diagram
-}
-\end{figure}
+
 \clearpage
 \centering
 \section{ Project Estimation and Project Plan}
@@ -1061,11 +1031,7 @@ It's important to note that risk analysis should be an ongoing process, continuo
 
 \normalsize
 \vspace{1cm}
-\begin{figure}[h]
-\centering
-\includegraphics[scale=1.0]{risk.png}
 
-\end{figure}
 \vspace{14cm}
 \subsection{PROJECT SCHEDULE}
 
@@ -1082,11 +1048,7 @@ Major Tasks in the Project stages are:
 \item Task 3: integrity
 \end{enumerate}
 \vspace{0.1cm}
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.82]{ProjectPlan.png}
 
-\end{figure}
 
 \vspace{14cm}
 \subsection{Timeline Chart}
@@ -1096,13 +1058,7 @@ Major Tasks in the Project stages are:
 \renewcommand{\baselinestretch}{1.5}
 
 \vspace{1cm}
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.8]{Timeline Chart.png}
-\caption{Timeline Chart}
-\label{Timeline Chart}
 
-\end{figure}
 
 
 
@@ -1153,121 +1109,31 @@ current emotional state of the user
 \renewcommand{\baselinestretch}{1.5}
 \vspace{1cm}
 
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.5]{  GUI Main Page.png}
-\caption{  GUI Main Page
-}
-\label{ GUI Main Page
-}
-\end{figure}
+
 
 \vspace{1cm}
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.6]{Registration Page.png}
-\caption{Registration Page
-}
-\label{Registration Page
-}
-\end{figure}
+
 
 \vspace{1.5cm}
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.6]{Login Page.png}
-\caption{Login Page
-}
-\label{Login Page
-}
-\end{figure}
+
 
 \vspace{1cm}
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.6]{  Home Page.png}
-\caption{ Home Page
-}
-\label{ Home Page}
-\end{figure}
+
 
 \vspace{1.5cm}
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.6]{  Happy Face Detected.png}
-\caption{  Happy Face Detected
-}
-\label{ Happy Face Detected
-}
-\end{figure}
+
 
 \vspace{1cm}
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.6]{ Happy Song List.png}
-\caption{ Happy Song List
-}
-\label{Happy Song List
-}
-\end{figure}
+
+
+\vspace{1cm}
+
 
 \vspace{1.5cm}
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.6]{ Happy Song Play.png}
-\caption{ Happy Song Play}
-\label{Happy Song Play
-}
-\end{figure}
+
 
 \vspace{1cm}
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.6]{ Neutral Face Detected.png}
-\caption{ Neutral Face Detected
-}
-\label{Neutral Face Detected}
-\end{figure}
 
-\vspace{1.5cm}
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.6]{Neutral Song List.png}
-\caption{Neutral Song List
-}
-\label{Neutral Song List
-}
-\end{figure}
-
-\vspace{1cm}
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.6]{Neutral Song Play.png}
-\caption{ Neutral Song Play
-}
-\label{Neutral Song Play
-}
-\end{figure}
-
-\vspace{1.5cm}
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.6]{ Sad Song List.png}
-\caption{  Sad Song List
-}
-\label{Sad Song List
-}
-\end{figure}
-
-\vspace{1cm}
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.6]{ Sad Song Play.png}
-\caption{Sad Song Play
-}
-\label{Sad Song Play
-}
-\end{figure}
 \clearpage
 \centering
 \section{TESTING}
@@ -1450,53 +1316,24 @@ value of current tests is determined.
 \renewcommand{\baselinestretch}{1.5}
 \normalsize
 \subsection{GUI Test Cases}
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.75]{guitesting.png}
-\caption{GUI Testing
-}
-\label{GUI Testing
-}
-\end{figure}
+
 
 \vspace{1cm}
 \clearpage
 
 \subsection{Registration Test Cases}
 
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.75]{Registration Testing.png}
-\caption{Registration Testing
-}
-\label{Registration Testing
-}
-\end{figure}
 
 \vspace{1cm}
 \clearpage
 
 \subsection{Login Test Case}
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.76]{Login Testing.png}
-\caption{Login Testing
-}
-\label{Login Testing
-}
-\end{figure}
+
 
 \vspace{1cm}
 \clearpage
 
 \subsection{System Test Cases}
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.8]{System Testing.png}
-\caption{System Testing}
-\label{System Testing
-}
-\end{figure}
 
 \vspace{1cm}
 \clearpage
@@ -1552,12 +1389,7 @@ and keep more semantic information than word-graph. System outperforms all basel
 and reach the state-of-art systems, and thesystem with CG can generate better summaries than
 that with ordinary word-graph.
 
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.65]{P with Polynomial time.png}
 
-
-\end{figure}
 
 \vspace{1cm}
 
@@ -1583,13 +1415,7 @@ from the CG for each sentence cluster, RNNLMis a better model to evaluate senten
 quality than n-gram language model.the system with CG can generate better summaries than that 
 with ordinary word- graph.
 
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.5]{NP complete.png}
-\caption{NP complete}
-\label{NP complete
-}
-\end{figure}
+
 
 \vspace{1cm}
 
@@ -1616,13 +1442,7 @@ between accuracy and efficiency. The user-aware rare pattern concerned here is a
 and a formal criterion must be well defined, so thatit can effectively characterize most of
 personalized and abnormal behaviors of Inter-net users.
 
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.8]{NP Hard.png}
-\caption{NP Hard}
-\label{NP Hard
-}
-\end{figure}
+
 
 \vspace{1cm}
 
@@ -1643,45 +1463,11 @@ personalized and abnormal behaviors of Inter-net users.
 \normalsize
 \raggedright\textbf{Details of paper publication:} international Journal for Research in Applied Science and Engineering Technology(IJRASET)
 
-\begin{figure}[h]
-\centering
-\includegraphics[scale=1.0]{Research Paper.png}
-
-\end{figure}
-
 \vspace{1cm}
 
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.7]{Pooja.png}
-
-\end{figure}
 
 \vspace{0.1cm} 
 
-
-
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.7]{Pavan.png}
-
-\end{figure}
-
-\vspace{1cm}
-
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.7]{Samiksha.png}
-
-\end{figure}
-
-\vspace{1cm}
-
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.7]{sir.png}
-
-\end{figure}
 
 
 
@@ -1708,7 +1494,7 @@ personalized and abnormal behaviors of Inter-net users.
 
 \begin{figure}[h]
 \centering
-\includegraphics[scale=0.9]{Plagarism.png}
+\includegraphics[scale=0.9]{images14.png}
 
 \end{figure}
 \vspace{15 cm}

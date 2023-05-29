@@ -1,0 +1,22 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}INTRODUCTION}{1}{section.0.1}%
+\contentsline {section}{\numberline {2}WHY DO YOU NEED CLOUD CRYPTOGRAPHY}{3}{section.0.2}%
+\contentsline {section}{\numberline {3}LITERATURE SURVEY}{4}{section.0.3}%
+\contentsline {section}{\numberline {4}WHAT IS CRYPTOGRAPGPHY}{7}{section.0.4}%
+\contentsline {subsection}{\numberline {4.1}Definition}{7}{subsection.0.4.1}%
+\contentsline {subsection}{\numberline {4.2}Symmetric Key Encryption}{9}{subsection.0.4.2}%
+\contentsline {subsubsection}{Data encryption standard (DES)}{9}{section*.3}%
+\contentsline {subsubsection}{Advanced Encryption Standard (AES)}{10}{section*.4}%
+\contentsline {subsection}{\numberline {4.3}Asymmetric Key Encryption}{10}{subsection.0.4.3}%
+\contentsline {subsubsection}{RSA (Rivest Shamir Adleman) Algorithm}{11}{section*.5}%
+\contentsline {section}{\numberline {5} END-USER CRYPTOGRAPHY}{13}{section.0.5}%
+\contentsline {subsection}{\numberline {5.1}Cryptography Model}{14}{subsection.0.5.1}%
+\contentsline {subsection}{\numberline {5.2}Data Encryption}{15}{subsection.0.5.2}%
+\contentsline {subsection}{\numberline {5.3} Key Generation and Verification}{16}{subsection.0.5.3}%
+\contentsline {subsection}{\numberline {5.4}Data Decryption}{17}{subsection.0.5.4}%
+\contentsline {section}{\numberline {6}IMPLEMENTATION AND RESULTS}{18}{section.0.6}%
+\contentsline {section}{\numberline {7}ADVANTAGES AND DISADVANTAGES}{19}{section.0.7}%
+\contentsline {section}{\numberline {8}CONCLUSION AND FUTURE SCOPE}{20}{section.0.8}%
+\contentsline {section}{\numberline {9}REFERENCES}{21}{section.0.9}%
+\contentsline {subsubsection}{JOURNALS/PERIODICALS}{21}{section*.6}%
+\contentsline {subsubsection}{WEB RESOURCES}{22}{section*.7}%

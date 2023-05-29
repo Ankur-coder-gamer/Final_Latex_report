@@ -233,33 +233,16 @@ The 2D (Dodgeball Video Game) is a multiplayer game written in Unity 3D using C\
 
 \normalsize
 \hspace{1.7cm}
-Facial expressions are one of the natural means of communicating emotions, and 
-these emotions can be used in entertainment and Human Machine Interface (HMI). In 
-today's world, with the advancement in technology, various music players are deployed with 
-features such as media flip, fast forward or streaming playback with multicast streams. 
-Although these features satisfy the basic requirements of the user, it is still necessary to 
-manually surf for a song from a large set of songs, according to the current situation and 
-mood. This is a time-consuming task that requires some effort and patience. The main goal 
-of this work is to develop an intelligent system that can easily recognize a facial expression 
-and accordingly play a music track based on that particular expression/emotion. The three 
-universally classified emotions are Happy, Sad and Neutral. The main goal of this work is 
-to develop an intelligent system that can easily recognize a facial expression and 
-accordingly play a music track based on that particular expression/emotion. The seven 
-universally classified emotions are Happy, Sad and Neutral. The algorithm used in the 
-development of this system is the Haar Cascade algorithm which is used to extract facial 
-features. The proposed algorithm is very efficient due to shorter computing time, which 
-increases the system performance.
+This engineering project report details the development of "The Infinite Pleasure", a multiplayer dodgeball video game created using Unity and the Photon Unity extension. The game offers an immersive and interactive experience for players, allowing them to choose their character, map, and compete with friends on the same local network.
 
+The game follows traditional dodgeball rules, with players picking up balls, running around, and throwing them at each other. The game employs a server-client relationship to handle essential concepts such as rendering, player data, and network connectivity.
 
-Depending on the type of 
-application and the dataset available, certain types of machine learning techniques are better
-suited than others for different applications. The main types of learning algorithms include 
-supervised learning, unsupervised learning, semi-supervised learning, and reinforcement 
-learning.A neural network (NN) is a machine learning technique that is generally effective 
-in extracting critical features from complex datasets and inferring a function or model that 
-expresses those features. The NN uses the training data set to first train the model. After 
-training the model, the NN can be applied to new or previously unseen data points and 
-classify the data based on the previously trained model.
+"The Infinite Pleasure" offers a unique twist to the classic dodgeball game, with innovative gameplay mechanics that would be impossible to replicate in real life. Players are placed into teams, and their objective is to catch, dodge, and launch the ball into the air to eliminate the opposing team.
+
+The game's matchmaking system ensures that players with similar or slightly higher experience levels are paired together. This report outlines the development process, including the game's mechanics design, network architecture, and matchmaking system.
+
+Overall, "DogeBall" combines the fun and chaotic gameplay of dodgeball .With its multiplayer features and Unity integration, it offers an enjoyable and competitive gaming experience for players to engage in virtual doge-themed dodgeball matches.
+
 
 
 
@@ -272,13 +255,13 @@ classify the data based on the previously trained model.
 \setlength{\parindent}{4em}
 \setlength{\parskip}{0.5em}
 \renewcommand{\baselinestretch}{1.5}
-\normalsize\hspace{1.7cm}\begin{itemize} \item Our effort is an initial step to bridge the gap between the traditional music browsing
-system and the users’ needs.
+\normalsize\hspace{1.7cm}\begin{itemize} \item We are living at the cusp of modern technology with pocket computers with us (our smartphones), in our leisure time, all of us reach into our smartphones to play the next big game to pass time.
 
-\item This work proposes a CNN based approach to recommend music by analyzing the 
-multimodal emotional information captured by facial movements and semantic analysis 
-of the speech/text interactions of the user, thus, intensifying the decision of the system on 
-recognized emotions in real-time.\\
+\item Being the students we are and wanting to play the latest and greatest games; which drives us to build a unique mechanic for the multiplayer systems.
+
+\item A game is much more than just its software. It has to provide a much more enjoyable experience.
+
+\item Not enough good dodgeball games free-to-play.\\
 \end{itemize}
 \raggedright
 \subsection{Problem Definition}
@@ -287,29 +270,70 @@ recognized emotions in real-time.\\
 \setlength{\parindent}{4em}
 \setlength{\parskip}{0.5em}
 \renewcommand{\baselinestretch}{1.5}
-\normalsize \hspace{1.7cm}\begin{itemize}\item To develop an intelligent system that can easily recognized the facial expression and 
-accordingly play a music track based on that particular expression/emotion recognized.
+\normalsize \hspace{1.7cm} The lack of engaging and interactive multiplayer games for PC users has resulted in a gap in the market and limited options for entertainment. The need for a fun and challenging multiplayer game that can be played on PC has been identified, with the goal of providing an enjoyable and unique gaming experience for users.
 
-\end{itemize}
+In this problem definition, the identified issue is the lack of engaging multiplayer games for PC users, which presents an opportunity to develop a new game that can fill this gap in the market. This sets the stage for the project's objectives, such as developing a multiplayer dodgeball game using the Unity Game Engine for PC, to address this problem and provide a new and enjoyable gaming experience for users.
+\clearpage
 \raggedright
-\subsection{Objective}
-
+\subsection{Project Scope And Limitations }
+\subsubsection{Project Scope}
 \justifying
-\setlength{\parindent}{4em}
+\setlength{\parindent}{2em}
 \setlength{\parskip}{0.5em}
 \renewcommand{\baselinestretch}{1.5}
-\normalsize \hspace{1.7cm}\begin{itemize}\item The main objective of this work is to develop an intelligent system that can easily 
-recognize the facial expression and accordingly play a music track based on that particular
-expression/emotion recognized.
+\normalsize \hspace{1.7cm} The Project Scope for our multiplayer dodgeball game using the Unity Game Engine for PC includes the following features that will be implemented in the future to enhance the game's overall effectiveness, efficiency, and success:
 
-\item  The underlying objective of this work is to design an accurate system that would yield a 
-list of songs in conformance with a user emotional state.
+i. Porting the game to phones (iOS A Android) and deploying it on App Store and Play Store to reach a wider audience.
 
-\item   The system designed, requires less computational time and reducesthe cost incurred in 
-employing additional hardware.
+ii. Implementing a health system as a mode for a match, which will add a new layer of complexity to the game and make it more challenging for players.
+
+iii. Adding power-ups for players to choose from, which will give players temporary advantages over their opponents, adding a new strategic element to the game.
+
+iv. Adding player-specific buffs that can be purchased, which will allow players to customize their characters and give them an advantage in the game.
+
+v. Adding In-App Purchasing using Unity IAP features, which will allow players to purchase additional features or upgrades within the game, generating additional revenue for the project.
+
+vi. Enhancing gamepad integrations, which will make the game more accessible to players who prefer using gamepads over keyboard and mouse controls.
+
+These features are not included in the current project scope but are essential for the game's future success. The project team will carefully consider each feature's feasibility, resource requirements, and potential impact on the project's timeline, budget, and deliverables before implementing them. The project team will also consult with key stakeholders to ensure that the new features align with the project's overall goals and objectives.
+
+\subsubsection{Limitations}
+\justifying
+\setlength{\parindent}{2em}
+\setlength{\parskip}{0.5em}
+\renewcommand{\baselinestretch}{1.5}
+\normalsize \hspace{1.7cm} 1. Releasing To Users:- It can be tricky to figure out when and where to deliver your learning content to your employees without them feeling pressured into it or overwhelmed. You want your employees to grow personally and professionally but still perform their day-to-day tasks with accuracy. Be aware of the audience’s schedule when you initially release the game. Don’t try to build hype about it during a busy time, such as year-end or just before a conference. 
+
+2. Circumventing Resources:- There are a few options for making serious games cost-efficient. You can research low-cost or free platforms that offer a game you might adapt to your needs. The trouble with this is that off-the-shelf games might be hard to customize. You might not be able to integrate all the details of your learning strategy. You can also create your own game from scratch. This implies a different kind of process. 
+
+\raggedright
+\subsection{Methodologies of Problem solving }
+\justifying
+\setlength{\parindent}{2em}
+\setlength{\parskip}{0.5em}
+\renewcommand{\baselinestretch}{1.5}
+\normalsize \hspace{1.7cm}The lack of diversity in this specific area of gaming is a simple one to solve. We will create a two
+dimension, fast paced, dodgeball game that is central around dodgeball. We will use a high-level game engine and modern day techniques to create a fully immersive product for use on personal computers.
+
+\begin{center}
+   \includegraphics[scale=0.5]{SDLC.png}
+\end{center}
+\newpage
+
+1.	Choosing Framework: The process of selecting a framework for our project was a crucial step, and we carefully evaluated different options before settling on Unity. We considered the ease of adoption, the quality of the documentation, and the level of community support for each engine.
+2.	Designing UI: In terms of UI design, we were fortunate to have mentors with a keen sense of aesthetics who helped us create an interface that was both intuitive and visually appealing. We took great care to ensure that the UI complemented the gameplay mechanics and enhanced the user experience.
+
+3.	Establishing Mechanics: Developing game mechanics that were accessible to players of all ages and skill levels was one of our primary goals. We spent a significant amount of time refining and simplifying the mechanics to ensure that they were easy to understand and provided a fun and engaging experience.
+
+4.	Piecing UI with Mechanics: The mechanics were made in isolation and the UI designed differently since, we had to piece them together that really tells us the real story of development, fun and challenging at the same time. Integrating the UI and mechanics was a challenging but rewarding process. We designed them separately, which required us to carefully consider how they would work together and make the necessary adjustments to ensure that they were seamlessly integrated.
+
+5.	Testing: Testing in gaming is a very strenuous job since there are many scopes to test with the available limited resources we have done Playtests, Network connection testing as well making sure there is no problem in mechanics and UI.Testing and quality assurance were critical components of our development process. We conducted extensive playtests, network connection testing, and comprehensive checks of mechanics and UI to ensure that the game was polished and free of bugs and glitches.
+
+6.	Fine Tuning with Feedbacks: The edge and boundary cases of the game had a lot of bugs which led to backtracking our mistakes and making sure it was a tight ship. We encountered several bugs during the development process that required backtracking and debugging. We listened to feedback from players and continuously refined the game to ensure an optimal experience.
+
+7.	Deployment: Deployment for a Unity cross platform has to be done across their own respective store so, for PC it is Steam or something for Apple their App Store and Android it is Google Play Store, since we are 4 students we chose to upload our game on itch.io for deployment and uploaded binaries for each platform, we chose itch.io since it is free and a lot of indie games are there already on it. Deploying a Unity cross-platform game requires uploading it to respective stores such as Steam for PC, Apple App Store for iOS, and Google Play Store for Android. As a team of four, we chose itch.io, a free platform that hosts many indie games, to upload our game. We uploaded binaries for each platform to itch.io.
 
 
-\end{itemize}
 %end of INtroduction
 
 
@@ -406,7 +430,7 @@ describe the emotions it found.
 \centering
 \section{SOFTWARE REQUIREMENT SPECIFICATION}
 \raggedright
-\subsection{NTRODUCTION}
+\subsection{INTRODUCTION}
 
 \justifying
 \setlength{\parindent}{4em}

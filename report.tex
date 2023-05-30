@@ -1,7 +1,7 @@
 \documentclass[12pt]{report}
 
 \usepackage{pdfpages}
-
+\usepackage{longtable}
 \usepackage{graphicx}
 \graphicspath{ {figures/} }
 \graphicspath{{images/}}
@@ -1000,7 +1000,7 @@ In summary, our company had a well-defined process for task assignment, executio
 
 
 \centering
-\section{OTHER SPECIFICATION}
+\section{SOFTWARE TESTING}
 
 \justifying
 \setlength{\parindent}{4em}
@@ -1009,262 +1009,123 @@ In summary, our company had a well-defined process for task assignment, executio
 
 \vspace{0.5cm}
 \normalsize
-\subsection{  ADVANTAGES}
+\subsection{ Type of Testing}
+\renewcommand{\labelitemi}{}
 \begin{itemize}
-\item The main advantage of our music recommendation system is to provide 
-suggestions to the users that fit the user's emotions.\\
-\item The analysis of the facial expression/user emotion may lead to understanding the 
-current emotional state of the user
+\item 1. Unit Testing:
+Test individual components or functions of the game, such as player movement, ball physics, and scoring logic, to ensure they work correctly in isolation.
+\item 2. Integration Testing:
+Test the interaction between different components of the game, such as how player input affects movement, how the ball interacts with the environment, and how the game state updates based on player actions.
+\item 3. System Testing:
+Test the interaction between different components of the game, such as how player input affects movement, how the ball interacts with the environment, and how the game state updates based on player actions.
+\item 4. Compatibility Testing:
+Test the game on different platforms, devices, and operating systems to ensure it works correctly and consistently across various environments.
+\item 5. Performance Testing:
+Test the game under various loads and conditions to ensure it maintains optimal performance, such as handling multiple players, managing network latency, and maintaining frame rates.
+\item 6. Load Testing:
+Test the game's ability to handle a large number of simultaneous players to ensure the game server and infrastructure can support the expected player base.
+\item 7. Playtesting:
+Have real players play the game to gather feedback on game mechanics, balance, and overall enjoyment. This can help identify issues that may not be apparent during other testing phases.
+\item 8. Regression Testing:
+Test the game after updates, bug fixes, or new features have been implemented to ensure that existing functionality has not been negatively affected.
+es.
 \end{itemize}
+
+\subsection{ Test cases And Test Results}
+
+\begin{longtable}{|c|p{4cm}|p{4cm}|}
+  \hline
+  \textbf{Test Case ID} & \textbf{Test Cases} & \textbf{Actual Result} \\
+  \hline
+  \endhead
+  T1 & Verify that the game can be launched successfully on different platforms (Windows, Mac, etc). & The game was successfully launched on Windows, Mac platforms. \\
+  \hline
+  T2 & Verify that the game can be played in multiplayer mode with at least two players. & The game was played in multiplayer mode with two players, and it worked correctly. \\
+  \hline
+  T3 & Verify that the game's graphics and sound effects are displayed correctly. & The game's graphics and sound effects were displayed correctly.\\
+  \hline
+  T4 & Verify that the game's controls are responsive and intuitive. & The game's controls were responsive and intuitive. \\
+  \hline
+  T5 & Verify that the game's scoring system is working correctly.& The game's scoring system was working correctly. \\
+  \hline
+  T6 & Verify that the game's collision detection system is working correctly & The game's collision detection system was working correctly. \\
+  \hline
+  T7 & Verify that the game's power-ups are working correctly. & The game's power-ups were working correctly. \\
+  \hline
+  T8 & Verify that the game's network connectivity is stable and reliable. & The game's network connectivity was stable and reliable. \\
+  \hline
+  % Add more rows here if needed
+\end{longtable}
 
 \vspace{1.5cm}
 \normalsize
-\subsection{  APPLICATIONS}
-\begin{itemize}
-\item This system helps user to play songs automatically according to their mood.\\
-\item Redirection of page to the music website once song is played.
+\subsubsection{ Testing with NUnit in Unity:}
+NUnit is an open-source unit testing framework for the .NET Framework and Mono. It serves the same purpose as JUnit does in the Java world, and is one of many programs in the xUnit family.
 
-\end{itemize}
+NUnit provides a console runner (nunit3-console.exe), which is used for batch execution of tests. The console runner works through the NUnit Test Engine, which provides it with the ability to load, explore and execute tests. When tests are to be run in a separate process, the engine makes use of the nunit-agent program to run them.
+
+Unit provides a rich set of assertions as static methods of the Assert class. If an assertion fails, the method call does not return and an error is reported. If a test contains multiple assertions, any that follow the one that failed will not be executed. For this reason, it's usually best to try for one assertion per test.[citation needed]\newline
+Nunit 3.x is supporting multiple assertions.
+
+\newpage
+\begin{verbatim}
+public void ComplexNumberTest()
+{
+    ComplexNumber result = SomeCalculation();
+
+    Assert.Multiple(() =>
+    {
+        Assert.AreEqual(5.2, result.RealPart, "Real part");
+        Assert.AreEqual(3.9, result.ImaginaryPart, "Imaginary part");
+    });
+}
+\end{verbatim}
+
 \clearpage
+
+\textbf{Edit mode tests:}
+\begin{center}
+\includegraphics[scale=0.2]{ image18.png}
+\includegraphics[scale=0.2]{ image19.png}
+\end{center}
+\clearpage
+\textbf{Play mode tests:}
+\begin{center}
+\includegraphics[scale=0.2]{ image17.png}
+\includegraphics[scale=0.2]{ image16.png}
+\end{center}
 
 \centering
 \section{RESULT}
-
 \justifying
 \setlength{\parindent}{4em}
 \setlength{\parskip}{0.5em}
 \renewcommand{\baselinestretch}{1.5}
-\vspace{1cm}
-
-
-
-\vspace{1cm}
-
-
-\vspace{1.5cm}
-
-
-\vspace{1cm}
-
-
-\vspace{1.5cm}
-
-
-\vspace{1cm}
-
-
-\vspace{1cm}
-
-
-\vspace{1.5cm}
-
-
-\vspace{1cm}
-
-\clearpage
-\centering
-\section{TESTING}
-\justifying
-\setlength{\parindent}{4em}
-\setlength{\parskip}{0.5em}
-\renewcommand{\baselinestretch}{1.5}
-\normalsize
-\subsection{ Introduction}
-\hspace{1.7 cm}Testing is an important part of software development life cycle. It is performed to ensure 
-quality of the developed system. Testing includes a set of investigative activities that can be 
-planned in advance and conducted systematically, to assure the stakeholder that system 
-fulfils all the requirements gathered during requirement gathering phase. Software testing is 
-one of the key elements in software projects that is often referred to as verification and 
-validation. Verification refers to the set of activities that ensure that software correctly 
-implements specified functionality. Validation refers to a set of activities built around 
-traceability matrix which ensure that the functionality implemented by the system is 
-traceable to customer requirements
-
-Tests are the individual tests specified in a test plan document. Each test is typically 
-described by
-\begin{itemize}
-\item An initial system state.
-\item A set of actions to be performed.
-\item The expected results of the test.
-\end{itemize}
-
-\subsection{ Implementation}
-\justifying
-\setlength{\parindent}{4em}
-\setlength{\parskip}{0.5em}
-\renewcommand{\baselinestretch}{1.5}
-\normalsize
-
-Test cases are planned in accordance to the test process and documented with detailed test 
-descriptions. These test cases use cases based on projected operational mission scenarios. 
-The testing process also includes stress or load testing for stability purpose (i.e., at 95% CPU 
-use, system stability is still guaranteed. The test process thoroughly tests the interfaces and 
-modules. Software testing includes a traceable white box testing, black box testing and other 
-test processes verifying implemented software against design documentation and 
-requirements specified.
-
-
-\subsection{Objective
-}
-\justifying
-\setlength{\parindent}{4em}
-\setlength{\parskip}{0.5em}
-\renewcommand{\baselinestretch}{1.5}
-\normalsize
-
-The software test plan (STP) is designed to test each module to measure its performance, to 
-uncover bugs in the system, to set aright any flaws in logic that may be present, and to check 
-logical flow from one module to another within system.
-\begin{itemize}
-\item All field entries must work properly.
-\item Pages must be activated from the identified link.
-\item The entry screen, messages and responses must not be delayed.
-
-\end {itemize}
-
-
-\subsection{Testing Strategy
-}
-\justifying
-\setlength{\parindent}{4em}
-\setlength{\parskip}{0.5em}
-\renewcommand{\baselinestretch}{1.5}
-\normalsize
-
-A strategy outlines what to plan, and how to plan it. A successful strategy is your guide 
-through change, and provides a firm foundation for ongoing improvement. Unlike a plan, 
-which is obsolete from the point of creation, a strategy reflects the values of an organization 
-- and remains current and useful. When an organization tests its products or its tools, it tries 
-to compare them against its expectations and values. By its nature, testing introduces change 
-as problems are identified and resolved. A test strategy is necessary to allow these two 
-impulses to work together. Furthermore, testing can never be said to be ‘complete’, and a 
-core skill in testing is the justified management of conflicting demands; without a strategy, 
-these judgements will be inconsistent to the point of failure.\\
-Software development is a creative process. A test strategy is a vital enabler to this process 
-keeping focus on core values and consistent decision-making to help achieve desired goals 
-with best use of resource. 
-
-\subsection{ Types of Testing:
-}
-\justifying
-\setlength{\parindent}{4em}
-\setlength{\parskip}{0.5em}
-\renewcommand{\baselinestretch}{1.5}
-\normalsize
-
-\hspace{1.7 cm} 1. White Box Testing: A level of white box test coverage is specified that is ap propriate for 
-the software being tested. The white box and other testing uses automated tools to instrument 
-the software to measure test coverage.
-
-2. Black Box Testing: A black box test of integration builds includes functional, interface, 
-error recovery, stress and out-of-bounds input testing. All black box software tests are traced 
-to control requirements. In addition to static requirements, a black box of a fully integrated 
-system against scenario sequences of events is designed to model field operation. 
-Performance testing for systems is integrated as an integral part of the black box test process.
-
-
-\subsection{ Unit Testing
-}
-\justifying
-\setlength{\parindent}{4em}
-\setlength{\parskip}{0.5em}
-\renewcommand{\baselinestretch}{1.5}
-\normalsize
-
-Unit testing is used to check the execution path of the module, function, and procedure of 
-the system. Test is conducted with the help of normal data and abnormal data. This testing 
-includes the different factors like statement coverage, branch coverage, loop processing, 
-abnormality, and circulation etc. With the help of this Unit testing we check that all the 
-statement in the code is executed or not so it avoids the dead code statement. It checks all 
-the branches and execution path of the code. It ensures that all the internal method of 
-program are executed and properly integrated with program.
-
-Unit testing involves the design of test cases that validate that the internal program logic is 
-functioning properly, and that program inputs produce valid outputs. All decision branches 
-and internal code flow should be validated. It is the testing of individual software units of 
-the application .it is done after the completion of an individual unit before integration. This 
-is a structural testing, that relies on knowledge of its construction and is invasive. Unit tests 
-perform basic tests at component level and test a specific business process, application, 
-and/or system configuration. Unit tests ensure that each unique path of a business process 
-performs accurately to the documented specifications and contains clearly defined inputs 
-and expected results.
-
-\subsection{Integrated system}
-\justifying
-\setlength{\parindent}{4em}
-\setlength{\parskip}{0.5em}
-\renewcommand{\baselinestretch}{1.5}
-\normalsize
-
-In integrated testing, all the modules are checked together to ensure that all the modules are 
-executing together according to the program specification. Once all the mod ules have been 
-tested individually, the most legitimate question can be asked is that when all the modules 
-are working properly, why there is need of integrated testing.
-
-The answer is, though all modules are working properly problem may occur while interfacing 
-individual module. Testing is event driven and is more concerned with the 
-basic outcome of screens or fields. Integration tests demonstrate that although the components 
-were individually satisfaction, as shown by successfully unit testing, the combination of 
-components is correct and consistent. Integration testing is specifically aimed at exposing the 
-problems that arise from the combination of components.
-
-\subsection{ Functional test}
-\justifying
-\setlength{\parindent}{4em}
-\setlength{\parskip}{0.5em}
-\renewcommand{\baselinestretch}{1.5}
-\normalsize
-
-Functional tests provide systematic demonstrations that functions tested are available as 
-specified by the business and technical requirements, system documentation, and user 
-manuals. Functional testing is centered on the following items: Valid Input: identified classes 
-of valid input must be accepted. Invalid Input: identified classes of invalid input must be 
-rejected. Functions: identified functions must be exercised. Output: identified classes of 
-application outputs must be exercised. Systems/Procedures: interfacing systems or procedures 
-must be invoked.
-
-Organization and preparation of functional tests is focused on requirements, key functions, or 
-special test cases. In addition, systematic coverage pertaining to identify Business process 
-flows; data fields, predefined processes, and successive processes must be considered for 
-testing. Before functional testing is complete, additional tests are identified and the effective 
-value of current tests is determined.
-
-
+\subsection{ScreenShots}
+\subsubsection{Game UI}
+\begin{center}
+\includegraphics[scale=0.2]{ image20.png}
+\vspace{0.10cm}
+\includegraphics[scale=0.2]{ image21.png}
+\vspace{0.4cm}
+\includegraphics[scale=0.2]{ image22.png}
+\vspace{0.10cm}
+\includegraphics[scale=0.2]{ image23.png}
+\end{center}
+\subsubsection{Future Updates}
+\begin{center}
+\includegraphics[scale=0.7]{ image24.png}
+\vspace{10pt}
+\includegraphics[scale=0.7]{ image26.png}
+\includegraphics[scale=0.7]{ image27.png}
+\vspace{0.4cm}
+\includegraphics[scale=0.7]{ image28.png}
+\vspace{0.4cm}
+\includegraphics[scale=0.7]{ image25.png}
+\end{center}
 
 
 \clearpage
-
-
-\centering
-\section{Test Cases}
-\justifying
-\setlength{\parindent}{4em}
-\setlength{\parskip}{0.5em}
-\renewcommand{\baselinestretch}{1.5}
-\normalsize
-\subsection{GUI Test Cases}
-
-
-\vspace{1cm}
-\clearpage
-
-\subsection{Registration Test Cases}
-
-
-\vspace{1cm}
-\clearpage
-
-\subsection{Login Test Case}
-
-
-\vspace{1cm}
-\clearpage
-
-\subsection{System Test Cases}
-
-\vspace{1cm}
-\clearpage
-
 
 % start conclusion
 \centering

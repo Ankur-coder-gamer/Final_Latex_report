@@ -1,8 +1,11 @@
 \babel@toc {english}{}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces Simple Cryptography Process}}{8}{figure.0.1}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Symmetric Key Cryptography Process}}{9}{figure.0.2}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Asymmetric Key Cryptography Process}}{12}{figure.0.3}%
-\contentsline {figure}{\numberline {4}{\ignorespaces End-User Encryption}}{14}{figure.0.4}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Encryption Flowchart}}{15}{figure.0.5}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Symetric Key generation and verification}}{16}{figure.0.6}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Decryption Flowchart}}{17}{figure.0.7}%
+\contentsline {figure}{\numberline {1}{\ignorespaces SDLC MODEL}}{15}{figure.0.1}%
+\contentsline {figure}{\numberline {2}{\ignorespaces System Architecture}}{16}{figure.0.2}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Haar Cascade Feature}}{21}{figure.0.3}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Data Flow diagram-0}}{22}{figure.0.4}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Data Flow diagram-1}}{23}{figure.0.5}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Data Flow diagram-2}}{23}{figure.0.6}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Use case Diagram}}{27}{figure.0.7}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Activity Diagram}}{28}{figure.0.8}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Sequence Diagram}}{29}{figure.0.9}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Class Diagram }}{30}{figure.0.10}%

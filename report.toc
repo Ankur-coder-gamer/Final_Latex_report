@@ -1,22 +1,70 @@
 \babel@toc {english}{}\relax 
 \contentsline {section}{\numberline {1}INTRODUCTION}{1}{section.0.1}%
-\contentsline {section}{\numberline {2}WHY DO YOU NEED CLOUD CRYPTOGRAPHY}{3}{section.0.2}%
-\contentsline {section}{\numberline {3}LITERATURE SURVEY}{4}{section.0.3}%
-\contentsline {section}{\numberline {4}WHAT IS CRYPTOGRAPGPHY}{7}{section.0.4}%
-\contentsline {subsection}{\numberline {4.1}Definition}{7}{subsection.0.4.1}%
-\contentsline {subsection}{\numberline {4.2}Symmetric Key Encryption}{9}{subsection.0.4.2}%
-\contentsline {subsubsection}{Data encryption standard (DES)}{9}{section*.3}%
-\contentsline {subsubsection}{Advanced Encryption Standard (AES)}{10}{section*.4}%
-\contentsline {subsection}{\numberline {4.3}Asymmetric Key Encryption}{10}{subsection.0.4.3}%
-\contentsline {subsubsection}{RSA (Rivest Shamir Adleman) Algorithm}{11}{section*.5}%
-\contentsline {section}{\numberline {5} END-USER CRYPTOGRAPHY}{13}{section.0.5}%
-\contentsline {subsection}{\numberline {5.1}Cryptography Model}{14}{subsection.0.5.1}%
-\contentsline {subsection}{\numberline {5.2}Data Encryption}{15}{subsection.0.5.2}%
-\contentsline {subsection}{\numberline {5.3} Key Generation and Verification}{16}{subsection.0.5.3}%
-\contentsline {subsection}{\numberline {5.4}Data Decryption}{17}{subsection.0.5.4}%
-\contentsline {section}{\numberline {6}IMPLEMENTATION AND RESULTS}{18}{section.0.6}%
-\contentsline {section}{\numberline {7}ADVANTAGES AND DISADVANTAGES}{19}{section.0.7}%
-\contentsline {section}{\numberline {8}CONCLUSION AND FUTURE SCOPE}{20}{section.0.8}%
-\contentsline {section}{\numberline {9}REFERENCES}{21}{section.0.9}%
-\contentsline {subsubsection}{JOURNALS/PERIODICALS}{21}{section*.6}%
-\contentsline {subsubsection}{WEB RESOURCES}{22}{section*.7}%
+\contentsline {subsection}{\numberline {1.1}OVERVIEW}{1}{subsection.0.1.1}%
+\contentsline {subsection}{\numberline {1.2} Motivation}{3}{subsection.0.1.2}%
+\contentsline {subsection}{\numberline {1.3}Problem Definition}{3}{subsection.0.1.3}%
+\contentsline {subsection}{\numberline {1.4}Objective}{3}{subsection.0.1.4}%
+\contentsline {section}{\numberline {2}LITERATURE SURVEY}{4}{section.0.2}%
+\contentsline {section}{\numberline {3}SOFTWARE REQUIREMENT SPECIFICATION}{8}{section.0.3}%
+\contentsline {subsection}{\numberline {3.1}NTRODUCTION}{8}{subsection.0.3.1}%
+\contentsline {subsubsection}{Project Scope}{8}{section*.3}%
+\contentsline {subsubsection}{ Assumption and dependencies}{8}{section*.4}%
+\contentsline {subsection}{\numberline {3.2} FUNCTIONAL REQUIREMENT}{8}{subsection.0.3.2}%
+\contentsline {subsection}{\numberline {3.3} EXTERNAL INTERFACE REQUIREMENT}{9}{subsection.0.3.3}%
+\contentsline {subsubsection}{ User Interface}{9}{section*.5}%
+\contentsline {subsubsection}{ Hardware Interfaces:}{9}{section*.6}%
+\contentsline {subsubsection}{ Software Interfaces:}{9}{section*.7}%
+\contentsline {subsection}{\numberline {3.4} NON-FUNCTIONAL REQUIREMENT}{10}{subsection.0.3.4}%
+\contentsline {subsubsection}{ Performance Requirements}{10}{section*.8}%
+\contentsline {subsubsection}{ Safety Requirement}{10}{section*.9}%
+\contentsline {subsubsection}{ Software Quality Attributes}{10}{section*.10}%
+\contentsline {subsection}{\numberline {3.5} SYSTEM REQUIREMENTS}{11}{subsection.0.3.5}%
+\contentsline {subsubsection}{ Database Requirements}{11}{section*.11}%
+\contentsline {subsubsection}{Software Requirements}{12}{section*.12}%
+\contentsline {subsubsection}{Hardware Requirements}{12}{section*.13}%
+\contentsline {subsection}{\numberline {3.6} ANALYSIS MODELS: SDLC MODEL TO BE APPLIED}{13}{subsection.0.3.6}%
+\contentsline {subsubsection}{ User Interface}{13}{section*.14}%
+\contentsline {subsubsection}{Project Resource}{14}{section*.15}%
+\contentsline {subsection}{\numberline {3.7} SDLC MODEL}{15}{subsection.0.3.7}%
+\contentsline {section}{\numberline {4} SYSTEM DESIGN}{16}{section.0.4}%
+\contentsline {subsection}{\numberline {4.1}SYSTEM ARCHITECTURE}{16}{subsection.0.4.1}%
+\contentsline {subsubsection}{Explanation}{17}{section*.16}%
+\contentsline {section}{\numberline {5}ALGORITHM}{19}{section.0.5}%
+\contentsline {subsection}{\numberline {5.1} Convolutional Neural Networks (CNN):}{19}{subsection.0.5.1}%
+\contentsline {subsection}{\numberline {5.2} Haar Cascade Feature}{19}{subsection.0.5.2}%
+\contentsline {section}{\numberline {6}DIAGRAMS}{22}{section.0.6}%
+\contentsline {subsection}{\numberline {6.1}Data Flow Diagram}{22}{subsection.0.6.1}%
+\contentsline {subsection}{\numberline {6.2}UML DIAGRAMS}{24}{subsection.0.6.2}%
+\contentsline {subsection}{\numberline {6.3}Use Case Diagram}{25}{subsection.0.6.3}%
+\contentsline {subsection}{\numberline {6.4}Activity Diagram}{25}{subsection.0.6.4}%
+\contentsline {subsection}{\numberline {6.5}Sequence Diagram}{25}{subsection.0.6.5}%
+\contentsline {subsection}{\numberline {6.6} Class Diagram}{30}{subsection.0.6.6}%
+\contentsline {subsection}{\numberline {6.7} Entity Relationship Diagrams}{31}{subsection.0.6.7}%
+\contentsline {section}{\numberline {7} Project Estimation and Project Plan}{32}{section.0.7}%
+\contentsline {subsection}{\numberline {7.1}PROJECT ESTIMATES}{32}{subsection.0.7.1}%
+\contentsline {subsection}{\numberline {7.2}RISK MANAGEMENT}{34}{subsection.0.7.2}%
+\contentsline {subsubsection}{Risk Identification}{34}{section*.17}%
+\contentsline {subsubsection}{Risk Analysis}{35}{section*.18}%
+\contentsline {subsubsection}{Risk Mitigation Risk Monitoring and Risk Management}{37}{section*.19}%
+\contentsline {subsection}{\numberline {7.3}PROJECT SCHEDULE}{37}{subsection.0.7.3}%
+\contentsline {subsubsection}{Project Task Set}{37}{section*.20}%
+\contentsline {subsection}{\numberline {7.4}Timeline Chart}{39}{subsection.0.7.4}%
+\contentsline {section}{\numberline {8}OTHER SPECIFICATION}{40}{section.0.8}%
+\contentsline {subsection}{\numberline {8.1} ADVANTAGES}{40}{subsection.0.8.1}%
+\contentsline {subsection}{\numberline {8.2} APPLICATIONS}{40}{subsection.0.8.2}%
+\contentsline {section}{\numberline {9}RESULT}{41}{section.0.9}%
+\contentsline {section}{\numberline {10}TESTING}{42}{section.0.10}%
+\contentsline {subsection}{\numberline {10.1} Introduction}{42}{subsection.0.10.1}%
+\contentsline {subsection}{\numberline {10.2} Implementation}{42}{subsection.0.10.2}%
+\contentsline {subsection}{\numberline {10.3}Objective }{43}{subsection.0.10.3}%
+\contentsline {subsection}{\numberline {10.4}Testing Strategy }{43}{subsection.0.10.4}%
+\contentsline {subsection}{\numberline {10.5} Types of Testing: }{44}{subsection.0.10.5}%
+\contentsline {subsection}{\numberline {10.6} Unit Testing }{44}{subsection.0.10.6}%
+\contentsline {subsection}{\numberline {10.7}Integrated system}{45}{subsection.0.10.7}%
+\contentsline {subsection}{\numberline {10.8} Functional test}{46}{subsection.0.10.8}%
+\contentsline {section}{\numberline {11}Test Cases}{47}{section.0.11}%
+\contentsline {subsection}{\numberline {11.1}GUI Test Cases}{47}{subsection.0.11.1}%
+\contentsline {subsection}{\numberline {11.2}Registration Test Cases}{48}{subsection.0.11.2}%
+\contentsline {subsection}{\numberline {11.3}Login Test Case}{49}{subsection.0.11.3}%
+\contentsline {subsection}{\numberline {11.4}System Test Cases}{50}{subsection.0.11.4}%
+\contentsline {section}{\numberline {12}CONCLUSION }{51}{section.0.12}%

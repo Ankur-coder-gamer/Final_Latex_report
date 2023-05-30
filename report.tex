@@ -217,10 +217,8 @@ The 2D (Dodgeball Video Game) is a multiplayer game written in Unity 3D using C\
 % Start of table of figures
 \listoffigures
 \thispagestyle{empty}
-
 \clearpage
 \pagenumbering{arabic}
-
 \fancyhead[R]{\thepage}
 % end of table of figures
 
@@ -229,12 +227,10 @@ The 2D (Dodgeball Video Game) is a multiplayer game written in Unity 3D using C\
 \section{INTRODUCTION}
 \raggedright
 \subsection{OVERVIEW}
-
 \justifying
-\setlength{\parindent}{4em}
+\setlength{\parindent}{3.7em}
 \setlength{\parskip}{0.5em}
 \renewcommand{\baselinestretch}{1.5}
-
 \normalsize
 \hspace{1.7cm}
 This engineering project report details the development of "The Infinite Pleasure", a multiplayer dodgeball video game created using Unity and the Photon Unity extension. The game offers an immersive and interactive experience for players, allowing them to choose their character, map, and compete with friends on the same local network.
@@ -246,10 +242,6 @@ The game follows traditional dodgeball rules, with players picking up balls, run
 The game's matchmaking system ensures that players with similar or slightly higher experience levels are paired together. This report outlines the development process, including the game's mechanics design, network architecture, and matchmaking system.
 
 Overall, "DogeBall" combines the fun and chaotic gameplay of dodgeball .With its multiplayer features and Unity integration, it offers an enjoyable and competitive gaming experience for players to engage in virtual doge-themed dodgeball matches.
-
-
-
-
 \clearpage
 
 \raggedright
@@ -343,19 +335,14 @@ dimension, fast paced, dodgeball game that is central around dodgeball. We will 
 %start of Literature Survey
 \centering
 \section{LITERATURE SURVEY}
-\justifying
-\normalsize
-
-\includepdf[pages=-]{LitSurvey.pdf}
-
-\clearpage
+\includepdf[pages={1-} ,offset=0cm 0cm]{LitSurvey.pdf}
 %end of litterature
 
 % SOFTWARE REQUIREMENT SPECIFICATION
 \centering
 \section{SOFTWARE REQUIREMENT SPECIFICATION}
 \raggedright
-\subsection{INTRODUCTION}
+\subsection{Assumptions and Dependencies}
 
 \justifying
 \setlength{\parindent}{4em}
@@ -363,14 +350,26 @@ dimension, fast paced, dodgeball game that is central around dodgeball. We will 
 \renewcommand{\baselinestretch}{1.5}
 
 \normalsize
-\hspace{1.7cm}\subsubsection{Project Scope}
-Recommendation is about extending listeners music universe beyond what they know and
-like. It empowers listeners once they have exhausted all their songs/artists searchcapabilities
-with further navigation celerity
+\hspace{1.7cm}\subsubsection{Assumptions:}
+\begin{itemize}\item Players are familiar with the rules of dodgeball and understand the objective of the game.
+\item Players have basic knowledge of gaming controls and mechanics.
+\item Players have access to the necessary equipment, such as a computer or a gaming console, to play the game.
+\item The game is designed for multiplayer mode, and players can connect to the game server without any issues.
+\item The game mechanics are well-defined and allow players to perform all the necessary actions to play the game effectively.
+\end{itemize}
+
 % code to fig reffrence==[figure. \ref{Simple Cryptography Process}].
-\hspace{1.7cm}\subsubsection{ Assumption and dependencies}
-\textbf{Domain}: Machine Learning\\
-\textbf{Input}: Users’ Face
+\hspace{1.7cm}\subsubsection{Dependencies:}
+\begin{itemize}\item Players are familiar with the rules of dodgeball and understand the objective of the game.
+\item The game depends on the underlying software infrastructure, such as the operating system, web server, and database server, to function correctly.
+\item The game depends on network connectivity to connect players to the game server and enable multiplayer mode.
+\item The game depends on the hardware capabilities of the player's device, such as the CPU, GPU, and RAM, to run smoothly and without any lag.
+\item The game depends on the availability of game assets, such as graphics, sound effects, and music, to create a rich and immersive gaming experience.
+\item The game's success depends on the availability of players to participate in multiplayer mode and engage with the game.
+\end{itemize}
+
+%\textbf{Domain}: Machine Learning\\
+%\textbf{Input}: Users’ Face
 
 \centering
 \raggedright
@@ -381,16 +380,13 @@ with further navigation celerity
 \setlength{\parskip}{0.5em}
 \renewcommand{\baselinestretch}{1.5}
 
-\normalsize Proposed system consists of 4 modules:
-\begin{itemize}
-    \item User Registration: Firstly, user need to register in the system.
-\item Login: After successful registration, user can login into the system.
-\item Feature point extraction: Feature points of each user’s face gets detected.
-\item Feature correspondence matching: Matching of selected feature points across
-various image frames in database and display playlist.
+%\normalsize Proposed system consists of 4 modules:
+\begin{itemize}\item After running the game, the UX view of the game will appear on the screen.
+\item User Experience which is used to explain all aspects of a person's experience with a system.
+\item The gamer can directly select "Start" from the "Main Menu"  which contains a number of Scenes like Tutorial, Matchmaking, Settings, and Quit.
+\item During Tutorial and Matchmaking players can control the character and have features like pause and play and can change settings in mid-game.
 
 \end{itemize}
-
 \centering
 \raggedright
 \subsection{ EXTERNAL INTERFACE REQUIREMENT}
@@ -399,12 +395,20 @@ various image frames in database and display playlist.
 \setlength{\parindent}{4em}
 \setlength{\parskip}{0.5em}
 \renewcommand{\baselinestretch}{1.5}
-\subsubsection{ User Interface}
-\normalsize
-\begin{itemize}
-    \item  Machine Learning Based Music Recommendation System Using Facial 
-Expressions
+%\subsubsection{ User Interface}
+\normalsize\begin{itemize}\item  Maximum high regulation with minimum hardware.
+\item We may provide each player with their rank.
+\item Easy to operate.
+\item Minimum hardware requirements which are relevant for this game.
+\item Design the whole system in an efficient manner.
 \end{itemize}
+\subsubsection{ User Interface}
+%\normalsize\begin{itemize}\item   Hardware: Intel i5 Processor
+%\item  Speed: 2.80 GHz
+%\item  RAM: 8GB
+%\item  Hard Disk: 64 GB
+%\item  KeyBoard: Standard Windows Keyboard
+%\end{itemize}
 \subsubsection{ Hardware Interfaces:}
 \normalsize
 
@@ -524,6 +528,13 @@ The IL2CPP AOT compiler is named il2cpp.exe. On Windows you can find it in the E
 The il2cpp.exe utility accepts managed assemblies compiled with the Mono compiler that ships with Unity and generates C++ code which we pass on to a platform-specific C++ compiler.
 
 \subsubsection{Hardware Requirements}
+\hspace{1.7cm}
+The hardware requirements for a Unity dodgeball game will depend on the complexity of the game, the graphics and physics involved, and the target platform (e.g., PC, mobile, console). Here are some considerations when determining the hardware requirements:
+
+Processor (CPU): Unity games typically rely on the CPU for gameplay and physics calculations. A multi-core processor with a higher clock speed will help handle complex calculations more efficiently.
+
+Graphics Card (GPU): The GPU handles rendering and graphics-related tasks. A dedicated graphics card with decent performance will ensure smooth rendering and better visual quality. The specific requirements will depend on the level of graphics fidelity desired for the game.
+Here are the specific requirements for different platforms:
 
 \includepdf[pages=-]{HardwareInfo.pdf}
 
@@ -597,50 +608,7 @@ Maintenance: After the game is released, the team continues to monitor and maint
 \label{ System Architecture}
 \end{figure}
 \vspace{0.1cm}
-\subsubsection{Explanation}
-\hspace{1.7cm}Steps involved to design the system, training dataset and test images are considered for 
-which the following procedures are applied to get the desired results. The training set is 
-the data which has large amount of data stored in it and the test set is the input given for
-recognition purpose.\\
-\hspace{1.7 cm} The whole system is designed in 5 steps:
 
-\textbf{1. Image Acquisition:} In any of the image processing techniques, the first task is to 
-acquire the image from the source. These images can be acquired either through
-camera. The images considered here are user dependent i.e., dynamic images.
-
-\textbf{2. Pre-processing: } Pre-processing is mainly done to eliminate the unwanted information
-from the image acquired and fix some values for it, so that the value remains same 
-throughout. During pre-processing, eyes, nose and mouth are considered to be the region of
-interest. It is detected by the cascade object detector which utilizes Haar Cascade
-Feature.
-
-
-
-\textbf{ 3. Facial Feature Extraction:}After pre-processing, the next step is feature extraction. 
-The extracted facial features are stored as the useful information during training phase 
-and testing phase. The following facial features canbe considered ―Mouth, forehead,
-eyes, cheek and chin dimple, eyebrows, nose and wrinkles on the face‖. In this work, 
-eyes, nose, mouth and fore-head are considered for feature extraction purpose for the
-reason that these depict the most appealing expressions.With the wrinkles on the 
-forehead or the mouth being opened one can easily recognize that the person is either 
-surprised or is fearful. But with a person’s complexion it can never be depicted. To 
-extract the facial features Haar feature technique is used.
-
-\textbf{4. Expression Recognition:} To recognize and classify the expressions of a person
-Convolution Neural Network. classifier is used. It gets the nearest match for the test data 
-from the training data set and hence gives a better match for the current expression 
-detected.Face detection is a non-trivial computer vision problem for identifying and 
-localizing faces in images. Face detection can be achieved using 
-a Multi-task Cascade CNN.
-
-
-\textbf{5. Play Music:} The last and the most important part of this system is the playing of music
-based on the current emotion detected of an individual. Once the facial expression of the 
-user is classified, the user’s corresponding emotional state is recognized. Severalsongs
-from various domains pertaining to a number of emotions is collected and put up in the 
-list. Each emotion category has a number of songs listed in it. When the user’s
-expression is classified with the help of CNN algorithm, songs belonging to that 
-category are then played.
 
 \large\textbf{MATHEMATIC MODEL}
 \normalsize
@@ -680,58 +648,6 @@ The game continues until a predefined number of points are scored by one of the 
 %end of design
 
 
-\clearpage
-%  start ALGORITHM
-\centering
-\section{ALGORITHM}
-
-\justifying
-\setlength{\parindent}{4em}
-\setlength{\parskip}{0.5em}
-\renewcommand{\baselinestretch}{1.5}
-\normalsize
-\subsection{ Convolutional Neural Networks (CNN):}
-\hspace{1.7cm} Convolutional Neural Networks, a type of deep learning algorithm, are very good at analyzing 
-images. Best algorithm for automatic processing of images. The image contains RGB 
-combination data. You can use matplotlib to import an image from a file into memory. A 
-convolutional neural network is a special type of neural network that helps machines learn and 
-classify images. 
-
-A convolutional neural network has three types of layers:
-
-1) Convolutional Layer: Each input neuron in a typical neural network is connected to the 
-following hidden layer. Only a small fraction of the CNN’s input layer neurons are connected 
-to the hidden layer of neurons.
-
-2) Pooling Layer: The dimensionality of the feature map is reduced using a pooling layer. 
-Within the hidden layers of a CNN, there are many activation and pooling layers.
-
-3) Fully-Connected layer: The last few layers of the network are known as fully connected 
-layers. The output of the final pooling or convolutional layer is fed to the fully connected 
-layer and flattened before being applied.
-
-%\begin{figure}[h]
-%\centering
-%\includegraphics[scale=0.6]{CNN Algorithm.png}
-%\caption{CNN Algorithm}
-%\label{CNN Algorithm}
-%\end{figure}
-
-
-
-\subsection{ Haar Cascade Feature}
-\hspace{1.7cm}This is an object detection algorithm used to identify faces in real-time images or videos. 
-This algorithm uses the edge or line detection feature proposed by Viola and Jones in year 
-2001 research paper, “Rapid Object Detection using a Boosted Cascade of Simple 
-Features”. This algorithm contains many positive image planes and many negative images 
-that have not been added.
-\vspace{1.5cm}
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.6]{Haar.png}
-\caption{Haar Cascade Feature}
-\label{Haar Cascade Feature}
-\end{figure}
 \clearpage
 
 \vspace{4cm}

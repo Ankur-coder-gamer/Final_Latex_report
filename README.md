@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Engineering Final Report</title>
-  </head>
   <body>
     <center>
         <h1>Engineering Final Report</h1>
